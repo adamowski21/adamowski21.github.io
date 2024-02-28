@@ -7,6 +7,15 @@ module.exports = {
     extend: {
       height: {
         '17vh': '17vh',
+        '96vh': '96vh',
+      },
+      width: {
+        '96vh': '96vh',
+      },
+      spacing: {
+        '4vh': '4vh',
+        '40': '10rem',
+        '80vh': '80vh',
       }
     },
   },
