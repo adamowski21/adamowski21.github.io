@@ -4,7 +4,7 @@ const Hero = () => {
 
   return (
     <section className="flex flex-col md:flex-row justify-center">
-      <div className="h-96 w-96 mr-20 mt-20">
+      <div className="h-96 w-96 mx-auto md:mr-20 md:ml-10 md:mt-40 flex-none">
         <img
           src="mcqueen.jpg"
           alt="profile"
