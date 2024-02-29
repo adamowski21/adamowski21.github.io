@@ -13,7 +13,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="mt-96 mb-10">
-      <p className="text-center mb-4">Explore my</p>
+      <p className="text-center mb-4">Explore My</p>
       <h1 className="text-5xl text-center font-semibold mb-16">Skills</h1>
       <div className="flex flex-col items-center justify-center">
         <div className="p-4 border border-black rounded-3xl">
@@ -24,9 +24,9 @@ const Skills = () => {
                 <img
                   src={article.img}
                   alt="logo"
-                  className="cursor-pointer h-16"
+                  className="h-16"
                 />
-                <div className="ml-2">
+                <div className="ml-2 cursor-default">
                   <h3 className="font-bold text-lg">{article.title}</h3>
                   <p>{article.description}</p>
                 </div>
