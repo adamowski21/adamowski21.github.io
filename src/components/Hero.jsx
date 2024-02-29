@@ -28,13 +28,13 @@ const Hero = () => {
             src="./linkedin.png"
             alt="linkedin"
             onClick={() => window.open('https://www.linkedin.com', '_blank')}
-            className="cursor-pointer h-8"
+            className="cursor-pointer h-8 transform transition duration-500 ease-in-out hover:scale-110"
           />
           <img
             src="./github.png"
             alt="github"
             onClick={() => window.open('https://github.com/adamowski21', '_blank')}
-            className="cursor-pointer h-8"
+            className="cursor-pointer h-8 transform transition duration-500 ease-in-out hover:scale-110"
           />
         </div>
       </div>
