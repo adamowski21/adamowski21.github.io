@@ -8,6 +8,7 @@ module.exports = {
       height: {
         '17vh': '17vh',
         '96vh': '96vh',
+        '70vh': '70vh',
       },
       width: {
         '96vh': '96vh',
