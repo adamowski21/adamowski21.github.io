@@ -6,9 +6,9 @@ const About = () => {
       <p className="text-center mb-4">Get To Know More</p>
       <h1 className="text-5xl text-center font-semibold mb-16">About Me</h1>
       <div className="flex flex-col md:flex-row gap-16 items-center">
-        <div className="h-96 w-96 mx-auto md:mr-20 md:ml-40 mb-16 md:mb-0 flex-none">
+        <div className="h-1/4 w-1/4 mx-auto md:mr-20 md:ml-40 mb-16 md:mb-0 flex-none">
           <img
-            src="profile_picture.jpg"
+            src="about_picture.jpg"
             alt="about profile"
             className="rounded-3xl"
           />
@@ -31,14 +31,18 @@ const About = () => {
                 className="cursor-pointer h-8"
               />
               <h3 className="font-bold text-xl">Education</h3>
-              <p>B.Sc.Bachelors Degree <br /></p>
+              <p>Computer Science Engineer <br /></p>
             </div>
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Hic quis reprehenderit et laborum, rem, dolore eum quod voluptate exercitationem nobis, nihil esse debitis maxime facere minus sint delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem, reiciendis ea magnam? Nulla, impedit fuga!
+              I have completed engineering studies specializing in Software Engineering,
+              and I envision my future in programming web applications. During my studies,
+              I delved into various programming languages, but programming web pages has always been my main interest.
+              I see it not only as a field for expressing creativity but also as having the potential to create useful and innovative solutions.
+              Consistently, I broaden my knowledge in technologies such as React, JavaScript, and Next.js
+              by engaging in the development of personal projects. In my free time, I engage in physical activities such as football and tennis.
+
             </p>
           </div>
         </div>

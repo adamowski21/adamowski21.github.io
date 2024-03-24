@@ -15,7 +15,8 @@ const Projects = () => {
           </div>
           <h2 className="font-bold text-3xl my-4">Online Store</h2>
           <div>
-            <button className="font-semibold transition-all duration-300 ease-in-out p-4 w-36 border border-black rounded-full bg-white text-black hover:bg-[#383838] hover:text-white" onClick={() => window.open('https://www.github.com', '_blank')}>
+            <button className="font-semibold transition-all duration-300 ease-in-out p-4 w-36 border border-black rounded-full bg-white text-black hover:bg-[#383838] hover:text-white"
+              onClick={() => window.open('https://github.com/adamowski21/projekt', '_blank')}>
               GitHub
             </button>
           </div>

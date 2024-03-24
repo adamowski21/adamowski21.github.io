@@ -19,7 +19,7 @@ const Contact = () => {
               alt="linkedin"
               className="cursor-pointer h-8"
             />
-            <p className="text-xl" ><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p className="text-xl" ><a href="https://www.linkedin.com/in/adam-michalowski21/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
           </div>
         </div>
       </div>
